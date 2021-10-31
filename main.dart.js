@@ -70046,7 +70046,7 @@ A.aja.prototype={
 $1(a){var s
 P.O(a.a)
 P.O(a.e)
-$.nd().lN("open",["http://172.20.30.46/ReportServer?%2fReport+Project4%2f"+a.d+"&rs:Format=PDF&rs:Command=Render&T1="+a.a])
+$.nd().lN("open",["http://172.20.30.46/ReportServer?%2fReport+Project4%2f"+a.e+"&rs:Format=PDF&rs:Command=Render&T1="+a.a])
 s=this.a
 J.ag(Y.ak(s,!1,t.Yd),C.hz)
 s=R.aX(s,t.D)
