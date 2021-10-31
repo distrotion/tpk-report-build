@@ -4397,7 +4397,7 @@ return new S.cE(M.w(s,L.V(b,s,s,s,s,s,s,s),s,s,s,s,s,s,d),c,!1,new F.apI(e,a))},
 aPd(a,b,c,d,e,f,g,h,i){var s,r,q,p=(i-1)*5,o=H.a([],t.j)
 for(s=p+5,r=J.T(a),q=p;q<s;++q)if(q<r.gl(a))o.push(F.aP1(r.h(a,q).a,r.h(a,q).b,r.h(a,q).c,r.h(a,q).d,r.h(a,q).e,r.h(a,q).f,r.h(a,q).r,b,c,d,e,f,g,h,r.h(a,q)))
 return o},
-aP1(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){return new S.eq(new F.apU(l,o),H.a([F.Es(a,h),F.Es(b,h),F.Es(c,h),F.Es(d,h),F.Es(e,h),F.Es(f,h),F.aOQ(a,m,n,i,j,k,o)],t.d))},
+aP1(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){return new S.eq(new F.apU(l,o),H.a([F.Es(a,h),F.Es(b,h),F.Es(c,h),F.Es(d,h),F.Es(e,h),F.Es(f,150),F.aOQ(a,m,n,50,j,k,o)],t.d))},
 Es(a,b){var s=null
 return S.d6(R.eH(!1,s,!0,M.w(s,L.V(a,s,C.aL,s,!1,s,s,s),s,s,s,s,s,s,b),s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))},
 aOQ(a,b,c,d,e,f,g){var s=null
@@ -70046,7 +70046,7 @@ A.aja.prototype={
 $1(a){var s
 P.O(a.a)
 P.O(a.e)
-$.nd().lN("open",["http://172.20.30.46/ReportServer?%2fReport+Project4%2f"+a.e+"&rs:Format=PDF&rs:Command=Render&T1="+a.a])
+$.nd().lN("open",["http://172.20.30.46/ReportServer?%2fReport+Project4%2f"+a.d+"&rs:Format=PDF&rs:Command=Render&T1="+a.a])
 s=this.a
 J.ag(Y.ak(s,!1,t.Yd),C.hz)
 s=R.aX(s,t.D)
@@ -71143,7 +71143,7 @@ K.db.prototype={}
 F.wI.prototype={
 a5(){return new F.Oz(C.l)}}
 F.Oz.prototype={
-B(a,b){var s,r,q=this,p=null,o=q.a.c,n=new F.agE(q,o),m=new F.agy(b),l=F.aPd(o,75,100,50,8,new F.agC(b),new F.agB(b),new F.agA(new F.agw(b),new F.agz(m,b),m),$.aud),k=K.cO(b).cS(P.bu([C.C,C.D],t.A)),j=t.p,i=T.aV(H.a([M.w(p,M.bW(p,p,new F.agD(b),134,"New"),p,p,p,30,p,p,p)],j),C.j,C.a7,C.k,p),h=q.d,g=q.e,f=H.a([F.Eu(1,"NO","Sort Field 1",75,n),F.Eu(2,"CP","Sort Field 2",75,n),F.Eu(3,"Customer","Sort Field 3",75,n),F.Eu(4,"Materail","Sort Field 4",75,n),F.Eu(5,"Branch","Sort Field 5",75,n),F.Eu(6,"Report Type","Sort Field 6",75,n),new S.cE(T.i4(M.w(p,p,p,p,p,p,p,p,p)),p,!1,p)],t.T),e=H.a([],t.j)
+B(a,b){var s,r,q=this,p=null,o=q.a.c,n=new F.agE(q,o),m=new F.agy(b),l=F.aPd(o,75,100,50,8,new F.agC(b),new F.agB(b),new F.agA(new F.agw(b),new F.agz(m,b),m),$.aud),k=K.cO(b).cS(P.bu([C.C,C.D],t.A)),j=t.p,i=T.aV(H.a([M.w(p,M.bW(p,p,new F.agD(b),134,"New"),p,p,p,30,p,p,p)],j),C.j,C.a7,C.k,p),h=q.d,g=q.e,f=H.a([F.Eu(1,"NO","Sort Field 1",75,n),F.Eu(2,"CP","Sort Field 2",75,n),F.Eu(3,"Customer","Sort Field 3",75,n),F.Eu(4,"Materail","Sort Field 4",75,n),F.Eu(5,"Branch","Sort Field 5",75,n),F.Eu(6,"Report Type","Sort Field 6",150,n),new S.cE(T.i4(M.w(p,p,p,p,p,p,p,p,p)),p,!1,p)],t.T),e=H.a([],t.j)
 for(s=l.length,r=0;r<l.length;l.length===s||(0,H.G)(l),++r)e.push(l[r])
 return K.cU(k,T.bn(H.a([i,E.cp(S.i1(10,f,56,e,!1,g,h),C.n)],j),C.j,C.q,C.k))}}
 F.agE.prototype={
